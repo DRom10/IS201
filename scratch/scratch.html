@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Love of Baseball</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <!-- Navigation -->
+<div class="nav">
+  <a href="../bootstrap/index.html">Professional Site</a> |
+  <a href="../ai_app/ai_app.html">AI App</a> |
+  <a href="#why">Why I Love Baseball</a>
+</div>
+
+  <!-- Header Section -->
+  <div class="section intro">
+    <h1>Major League Baseball Page - Dylan Romney</h1>
+    <p>This page is all about my love for the game — especially the San Diego Padres!</p>
+  </div>
+
+  <!-- Ordered + Unordered List -->
+  <div class="section lists">
+    <h2>What I Love Most About Baseball</h2>
+    <ol>
+      <li>Favorite Team
+        <ul>
+          <li>San Diego Padres</li>
+        </ul>
+      </li>
+      <li>Players
+        <ul>
+          <li>Fernando Tatis Jr.</li>
+          <li>Jackson Merrill</li>
+        </ul>
+      </li>
+      <li>Walk-Offs</li>
+      <li>Playoffs</li>
+    </ol>
+  </div>
+
+  <!-- External Image (uses URL, so no local files needed) -->
+  <div class="section">
+    <h2>Petco Park</h2>
+    <img
+      src="https://images.axios.com/Rz-DP_-vrZIGNdwIvbBpC18KkcA=/0x0:1920x1080/1600x900/2024/03/20/1710970646162.jpg"
+      alt="Petco Park"
+      width="300"
+    >
+  </div>
+
+  <!-- On-page Anchor Target -->
+  <div class="section" id="why">
+    <h2>Why I Love Baseball</h2>
+    <p>There's nothing like the energy of a close game, the aura of my favorite players, or the intensity of playoff baseball. And nothing is better than a walk-off. Go Padres!</p>
+  </div>
+
+  <!-- Embedded YouTube Video -->
+  <div class="section video">
+    <h2>San Diego Padress Hype Video</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/9H7xENkyLvs"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <!-- Tableau Placeholder -->
+  <div class="section tableau">
+    <h2>MLB Player Tableau Statistics Visualization</h2>
+    <div
+    class="tableauPlaceholder"
+    id="viz1745453445989"
+    style="position: relative"
+  >
+    <noscript>
+      <a href="#">
+        <img
+          alt=" "
+          src="https://public.tableau.com/static/images/ML/MLBMiLBStatsDashboardv3/Hitters-Main/1_rss.png"
+          style="border: none"
+        />
+      </a>
+    </noscript>
+    <object class="tableauViz" style="display: none;">
+      <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+      <param name="embed_code_version" value="3" />
+      <param name="site_root" value="" />
+      <param name="name" value="MLBMiLBStatsDashboardv3/Hitters-Main" />
+      <param name="tabs" value="yes" />
+      <param name="toolbar" value="yes" />
+      <param
+        name="static_image"
+        value="https://public.tableau.com/static/images/ML/MLBMiLBStatsDashboardv3/Hitters-Main/1.png"
+      />
+      <param name="animate_transition" value="yes" />
+      <param name="display_static_image" value="yes" />
+      <param name="display_spinner" value="yes" />
+      <param name="display_overlay" value="yes" />
+      <param name="display_count" value="yes" />
+      <param name="language" value="en-US" />
+    </object>
+  </div>
+  
+  <script type="text/javascript">
+    var divElement = document.getElementById("viz1745453445989");
+    var vizElement = divElement.getElementsByTagName("object")[0];
+  
+    if (divElement.offsetWidth > 800) {
+      vizElement.style.width = "1400px";
+      vizElement.style.height = "850px";
+    } else if (divElement.offsetWidth > 500) {
+      vizElement.style.width = "1400px";
+      vizElement.style.height = "850px";
+    } else {
+      vizElement.style.width = "100%";
+      vizElement.style.height = "1800px";
+    }
+  
+    var scriptElement = document.createElement("script");
+    scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>  
+  </div>
+
+</body>
+</html>

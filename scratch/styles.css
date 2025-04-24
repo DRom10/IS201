@@ -1,0 +1,51 @@
+/* styles.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-color: burlywood;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }  
+  
+  /* 2. Navigation bar */
+  .nav {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  /* 3. Generic section styling */
+  .section {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+  
+  /* 4. Intro header tweaks */
+  .intro {
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  /* 5. List styling */
+  .lists {
+    font-family: 'Arial', monospace;
+    color: #f1f1f1;
+  }
+  
+  /* 6. Video iframe border */
+  .video iframe {
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+  }
+  
